@@ -1,20 +1,16 @@
 {
-  "customers": [],
-  "posts": [
+  "customers": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
+      "name": "金杉",
+      "email": "test1@example.com",
+      "address": "東京都渋谷区"
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "id": 2,
+      "name": "鈴木",
+      "email": "test2@example.com",
+      "address": "福岡県福岡市"
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }

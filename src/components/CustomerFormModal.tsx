@@ -31,7 +31,8 @@ const customerSchema = z.object({
   address: z.string().nonempty({ message: "住所は必須です" }),
 });
 
-// TODO zodを使ってバリデーションを行う
+/** 作成処理。 */
+// TODO 今後利用する
 export const CustomerFormModal = ({ isOpen, onClose }: Props) => {
   const {
     register,

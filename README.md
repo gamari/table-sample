@@ -9,16 +9,11 @@
 - useSWR
 - React Hook Form
 
-## 環境
-
-- JSON serverを利用しています
-
 ## 準備
 
 起動前に行って下さい。
 
-1. npm installコマンドを入力
-
+1. npm install コマンドを入力
 
 ## 起動方法
 

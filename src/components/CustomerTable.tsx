@@ -8,7 +8,7 @@ import { fetcher } from "@/libs/fetcher";
 import dayjs from "dayjs";
 
 export const CustomerTable = () => {
-  const { data: customers, error } = useSWR("/customers", fetcher);
+  const { data: customers, error } = useSWR("http://localhost:3001/customers", fetcher);
 
   if (error) return <div>データの取得に失敗しました。</div>;
   if (!customers) return <div>ローディング中...</div>;
